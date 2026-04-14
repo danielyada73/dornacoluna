@@ -96,10 +96,10 @@ export default function FAQ() {
       {/* Gallery */}
       <section className="py-12 max-w-7xl mx-auto px-6">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
-              <img src="https://images.unsplash.com/photo-1629909613654-28e377c37b09?q=80&w=400&auto=format&fit=crop" alt="Clínica recepção" className="w-full aspect-square object-cover rounded-2xl" />
-              <img src="https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?q=80&w=400&auto=format&fit=crop" alt="Consultório" className="w-full aspect-square object-cover rounded-2xl" />
-              <img src="https://hoirqrkdgbmvpwutwuwj.supabase.co/storage/v1/object/public/assets/assets/c543a9e1-f226-4ced-80b0-feb8445a75b9_1600w.jpg" alt="Equipamentos" className="w-full aspect-square object-cover rounded-2xl" />
-              <img src="https://images.unsplash.com/photo-1516549655169-df83a0774514?q=80&w=400&auto=format&fit=crop" alt="Atendimento" className="w-full aspect-square object-cover rounded-2xl" />
+              <img src="https://doutordanieledde.com/protocolo-de-emagrecimento/assets/clinica-recepcao-WjFRqvL0.jpg" alt="Recepção" className="w-full aspect-square object-cover rounded-2xl" />
+              <img src="https://doutordanieledde.com/protocolo-de-emagrecimento/assets/clinica-espera-we_EdnR6.jpg" alt="Sala de Espera" className="w-full aspect-square object-cover rounded-2xl" />
+              <img src="https://doutordanieledde.com/protocolo-de-emagrecimento/assets/clinica-fachada-C__IGSg4.jpg" alt="Fachada" className="w-full aspect-square object-cover rounded-2xl" />
+              <img src="https://doutordanieledde.com/protocolo-de-emagrecimento/assets/clinica-consultorio-DO840m-P.jpg" alt="Consultório" className="w-full aspect-square object-cover rounded-2xl" />
           </div>
       </section>
     </>

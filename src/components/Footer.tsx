@@ -7,10 +7,12 @@ export default function Footer() {
         <div className="max-w-7xl mx-auto px-6">
             
             <div className="flex flex-col items-center justify-center mb-16">
-                <div className="w-16 h-16 bg-white/10 rounded-full flex items-center justify-center text-white font-semibold text-2xl mb-4 border border-white/20">
-                    DE
-                </div>
-                <span className="font-semibold text-xl tracking-widest uppercase text-[#BE9143]">Dr. Daniel Edde</span>
+                <img
+                    src="https://doutordanieledde.com/protocolo-de-emagrecimento/assets/logo-dourado-BAsUUEYh.png"
+                    alt="Dr. Daniel Edde"
+                    className="h-14 w-auto object-contain mb-3"
+                />
+                <span className="font-semibold text-sm tracking-widest uppercase text-[#BE9143]">Dr. Daniel Edde</span>
             </div>
 
             <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-12 mb-16">

@@ -5,38 +5,49 @@ export default function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   return (
-    <header className="fixed top-0 w-full bg-white/90 backdrop-blur-md z-50 border-b border-gray-100">
+    <header className="fixed top-0 w-full bg-[#0D1D3F] z-50 border-b border-white/10">
         <div className="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
-            <div className="flex items-center gap-2">
-                <div className="w-10 h-10 bg-[#0D1D3F] rounded-full flex items-center justify-center text-white font-semibold text-lg">
-                    DE
-                </div>
-                <span className="font-semibold text-xl tracking-tight text-[#0D1D3F]">Dr. Daniel Edde</span>
+
+            {/* Logo */}
+            <div className="flex items-center gap-3">
+                <img
+                    src="https://doutordanieledde.com/protocolo-de-emagrecimento/assets/logo-dourado-BAsUUEYh.png"
+                    alt="Dr. Daniel Edde"
+                    className="h-10 w-auto object-contain"
+                />
+                <span className="font-semibold text-lg tracking-tight text-white hidden sm:block">
+                    Dr. Daniel Edde
+                </span>
             </div>
-            
+
+            {/* Nav Links */}
             <nav className="hidden lg:flex items-center gap-8">
-                <a href="#sobre" className="text-sm font-semibold hover:text-[#BE9143] transition-colors">Sobre</a>
-                <a href="#tratamentos" className="text-sm font-semibold hover:text-[#BE9143] transition-colors">Tratamentos</a>
-                <a href="#convenios" className="text-sm font-semibold hover:text-[#BE9143] transition-colors">Convênios</a>
-                <a href="#depoimentos" className="text-sm font-semibold hover:text-[#BE9143] transition-colors">Depoimentos</a>
+                <a href="#sobre" className="text-sm font-medium text-white/80 hover:text-[#BE9143] transition-colors">Sobre</a>
+                <a href="#tratamentos" className="text-sm font-medium text-white/80 hover:text-[#BE9143] transition-colors">Tratamentos</a>
+                <a href="#convenios" className="text-sm font-medium text-white/80 hover:text-[#BE9143] transition-colors">Convênios</a>
+                <a href="#depoimentos" className="text-sm font-medium text-white/80 hover:text-[#BE9143] transition-colors">Depoimentos</a>
             </nav>
-            
-            <a href="#contato" className="hidden md:inline-flex bg-[#0D1D3F] text-white px-6 py-2.5 rounded-full text-sm font-semibold hover:bg-[#152a5c] transition-colors items-center gap-2">
+
+            {/* CTA Button */}
+            <a href="#contato" className="hidden md:inline-flex bg-[#BE9143] text-white px-6 py-2.5 rounded-full text-sm font-semibold hover:bg-[#a37c39] transition-colors items-center gap-2">
                 Agendar Avaliação
                 <ArrowRight className="w-4 h-4" strokeWidth={1.5} />
             </a>
-            
-            <button className="lg:hidden text-[#0D1D3F]" onClick={() => setIsMenuOpen(!isMenuOpen)}>
+
+            {/* Mobile Toggle */}
+            <button className="lg:hidden text-white" onClick={() => setIsMenuOpen(!isMenuOpen)}>
                 <Menu className="w-6 h-6" strokeWidth={1.5} />
             </button>
         </div>
+
+        {/* Mobile Menu */}
         {isMenuOpen && (
-            <div className="lg:hidden absolute top-full left-0 w-full bg-white border-b border-gray-100 p-4 flex flex-col gap-4 shadow-lg">
-                <a href="#sobre" onClick={() => setIsMenuOpen(false)} className="text-sm font-semibold hover:text-[#BE9143] transition-colors">Sobre</a>
-                <a href="#tratamentos" onClick={() => setIsMenuOpen(false)} className="text-sm font-semibold hover:text-[#BE9143] transition-colors">Tratamentos</a>
-                <a href="#convenios" onClick={() => setIsMenuOpen(false)} className="text-sm font-semibold hover:text-[#BE9143] transition-colors">Convênios</a>
-                <a href="#depoimentos" onClick={() => setIsMenuOpen(false)} className="text-sm font-semibold hover:text-[#BE9143] transition-colors">Depoimentos</a>
-                <a href="#contato" onClick={() => setIsMenuOpen(false)} className="inline-flex justify-center bg-[#0D1D3F] text-white px-6 py-2.5 rounded-full text-sm font-semibold hover:bg-[#152a5c] transition-colors items-center gap-2 mt-2">
+            <div className="lg:hidden absolute top-full left-0 w-full bg-[#0D1D3F] border-t border-white/10 p-4 flex flex-col gap-4 shadow-lg">
+                <a href="#sobre" onClick={() => setIsMenuOpen(false)} className="text-sm font-medium text-white/80 hover:text-[#BE9143] transition-colors">Sobre</a>
+                <a href="#tratamentos" onClick={() => setIsMenuOpen(false)} className="text-sm font-medium text-white/80 hover:text-[#BE9143] transition-colors">Tratamentos</a>
+                <a href="#convenios" onClick={() => setIsMenuOpen(false)} className="text-sm font-medium text-white/80 hover:text-[#BE9143] transition-colors">Convênios</a>
+                <a href="#depoimentos" onClick={() => setIsMenuOpen(false)} className="text-sm font-medium text-white/80 hover:text-[#BE9143] transition-colors">Depoimentos</a>
+                <a href="#contato" onClick={() => setIsMenuOpen(false)} className="inline-flex justify-center bg-[#BE9143] text-white px-6 py-2.5 rounded-full text-sm font-semibold hover:bg-[#a37c39] transition-colors items-center gap-2 mt-2">
                     Agendar Avaliação
                     <ArrowRight className="w-4 h-4" strokeWidth={1.5} />
                 </a>
