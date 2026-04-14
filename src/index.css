@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #0D1D3F;
+  --color-primary-foreground: #ffffff;
+  --color-secondary: #BE9143;
+  --color-secondary-foreground: #ffffff;
+  --color-background: #ffffff;
+  --color-foreground: #374151;
+  
+  --font-sans: "Montserrat", sans-serif;
+}
+
+body {
+  background-color: var(--color-background);
+  color: var(--color-foreground);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Custom UI for details/summary accordion to hide default arrow */
+details > summary {
+    list-style: none;
+}
+details > summary::-webkit-details-marker {
+    display: none;
+}
+
+/* Approximate organic shape for hero image background */
+.hero-blob {
+    border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+}
+
+html {
+  scroll-behavior: smooth;
+}
