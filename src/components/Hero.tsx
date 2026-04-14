@@ -56,7 +56,7 @@ export default function Hero() {
                 <div className="absolute w-[120%] h-[120%] bg-[#f0f4f8] hero-blob -z-10 translate-x-10"></div>
                 
                 <div className="relative rounded-3xl overflow-hidden shadow-2xl border-4 border-white">
-                    <img src="https://drive.google.com/uc?export=view&id=1FtuGYHP232cjsCUWwpWKdFDtE1x7O0F0" alt="Avaliação ortopédica" className="w-full max-w-md h-[600px] object-cover object-center block" />
+                    <img src="https://lh3.googleusercontent.com/d/1FtuGYHP232cjsCUWwpWKdFDtE1x7O0F0" alt="Avaliação ortopédica" className="w-full max-w-md h-[600px] object-cover object-center block" />
                     
                     {/* Decorative overlay matching reference */}
                     <div className="absolute bottom-6 -left-6 bg-white p-4 rounded-2xl shadow-xl flex items-center gap-4">
