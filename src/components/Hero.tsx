@@ -55,7 +55,7 @@ export default function Hero() {
                 {/* Background decorative blob matching visual structure */}
                 <div className="absolute w-[120%] h-[120%] bg-[#f0f4f8] hero-blob -z-10 translate-x-10"></div>
                 
-                <div className="relative rounded-3xl overflow-hidden shadow-2xl border-4 border-white">
+                <div className="relative">
                     <img src="/hero.jpg.png" alt="Avaliação ortopédica" className="w-full max-w-md h-[600px] object-cover object-center block" />
                     
                     {/* Decorative overlay matching reference */}
