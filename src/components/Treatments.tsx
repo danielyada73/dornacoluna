@@ -22,7 +22,7 @@ export default function Treatments() {
                   {/* Card 1 */}
                   <div className="bg-white/5 border border-white/10 rounded-2xl overflow-hidden group hover:bg-white/10 transition duration-300">
                       <div className="h-48 bg-gray-800 overflow-hidden">
-                          <img src="https://hoirqrkdgbmvpwutwuwj.supabase.co/storage/v1/object/public/assets/assets/917d6f93-fb36-439a-8c48-884b67b35381_1600w.jpg" alt="Infiltrações guiadas" className="w-full h-full object-cover group-hover:scale-105 transition duration-500 opacity-80 mix-blend-overlay" loading="lazy" decoding="async" />
+                          <img src="https://cetrus.com.br/wp-content/uploads/2025/01/cetrus-curso-intensivo-infiltracao-da-coluna-guiada-por-ultrassom.webp" alt="Infiltrações guiadas" className="w-full h-full object-cover group-hover:scale-105 transition duration-500 opacity-80 mix-blend-overlay" loading="lazy" decoding="async" />
                       </div>
                       <div className="p-6">
                           <h3 className="text-xl font-semibold mb-3">Infiltrações Guiadas</h3>
@@ -35,7 +35,7 @@ export default function Treatments() {
                   {/* Card 2 */}
                   <div className="bg-white/5 border border-white/10 rounded-2xl overflow-hidden group hover:bg-white/10 transition duration-300">
                       <div className="h-48 bg-gray-800 overflow-hidden">
-                          <img src="https://images.unsplash.com/photo-1581594693702-fbdc51b2763b?q=80&w=800&auto=format&fit=crop" alt="Minimamente Invasivos" className="w-full h-full object-cover group-hover:scale-105 transition duration-500 opacity-80 mix-blend-overlay" loading="lazy" decoding="async" />
+                          <img src="https://doutordanieledde.com/wp-content/uploads/2026/01/Cirurgia-de-coluna-Minimamente-invasiva.jpg" alt="Minimamente Invasivos" className="w-full h-full object-cover group-hover:scale-105 transition duration-500 opacity-80 mix-blend-overlay" loading="lazy" decoding="async" />
                       </div>
                       <div className="p-6">
                           <h3 className="text-xl font-semibold mb-3">Minimamente Invasivos</h3>
@@ -48,7 +48,7 @@ export default function Treatments() {
                   {/* Card 3 */}
                   <div className="bg-white/5 border border-white/10 rounded-2xl overflow-hidden group hover:bg-white/10 transition duration-300">
                       <div className="h-48 bg-gray-800 overflow-hidden">
-                          <img src="https://hoirqrkdgbmvpwutwuwj.supabase.co/storage/v1/object/public/assets/assets/4734259a-bad7-422f-981e-ce01e79184f2_1600w.jpg" alt="Dores Articulares" className="w-full h-full object-cover group-hover:scale-105 transition duration-500 opacity-80 mix-blend-overlay" loading="lazy" decoding="async" />
+                          <img src="https://doutordanieledde.com/wp-content/uploads/2026/01/Tratamento-da-Dor-Cronica.jpg" alt="Dores Articulares" className="w-full h-full object-cover group-hover:scale-105 transition duration-500 opacity-80 mix-blend-overlay" loading="lazy" decoding="async" />
                       </div>
                       <div className="p-6">
                           <h3 className="text-xl font-semibold mb-3">Dores Articulares</h3>
@@ -61,7 +61,7 @@ export default function Treatments() {
                   {/* Card 4 */}
                   <div className="bg-white/5 border border-white/10 rounded-2xl overflow-hidden group hover:bg-white/10 transition duration-300">
                       <div className="h-48 bg-gray-800 overflow-hidden">
-                          <img src="https://images.unsplash.com/photo-1505751172876-fa1923c5c528?q=80&w=800&auto=format&fit=crop" alt="Avaliação da Coluna" className="w-full h-full object-cover group-hover:scale-105 transition duration-500 opacity-80 mix-blend-overlay" loading="lazy" decoding="async" />
+                          <img src="https://doutordanieledde.com/wp-content/uploads/2026/01/freepik__a-photorealistic-shot-focusing-on-the-legs-and-kne__58741.png" alt="Avaliação da Coluna" className="w-full h-full object-cover group-hover:scale-105 transition duration-500 opacity-80 mix-blend-overlay" loading="lazy" decoding="async" />
                       </div>
                       <div className="p-6">
                           <h3 className="text-xl font-semibold mb-3">Avaliação da Coluna</h3>
