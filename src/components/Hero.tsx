@@ -56,7 +56,7 @@ export default function Hero() {
                 <div className="absolute w-[120%] h-[120%] bg-[#f0f4f8] hero-blob -z-10 translate-x-10"></div>
                 
                 <div className="relative">
-                    <img src="/hero.jpg.png" alt="Avaliação ortopédica" className="w-full max-w-md h-[600px] object-cover object-center block" />
+                    <img src="https://doutordanieledde.com/wp-content/uploads/2026/01/freepik__a-photorealistic-shot-focusing-on-the-legs-and-kne__58741.png" alt="Avaliação ortopédica" className="w-full max-w-md h-[600px] object-cover object-center block" />
                     
                     {/* Decorative overlay matching reference */}
                     <div className="absolute bottom-6 -left-6 bg-white p-4 rounded-2xl shadow-xl flex items-center gap-4">
