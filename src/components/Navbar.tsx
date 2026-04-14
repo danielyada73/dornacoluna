@@ -14,9 +14,6 @@ export default function Navbar() {
                     src="https://doutordanieledde.com/protocolo-de-emagrecimento/assets/logo-dourado-BAsUUEYh.png"
                     
                 />
-                <span className="font-semibold text-lg tracking-tight text-white hidden sm:block">
-                    Dr. Daniel Edde
-                </span>
             </div>
 
             {/* Nav Links */}
