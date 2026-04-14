@@ -8,7 +8,7 @@ export default function FAQ() {
           <div className="max-w-7xl mx-auto px-6 grid lg:grid-cols-2 gap-16 items-start">
               
               <div className="rounded-3xl overflow-hidden shadow-lg h-full min-h-[400px] relative bg-gray-200">
-                  <img src="https://doutordanieledde.com/wp-content/uploads/2025/10/Dr-Daniel.jpg" alt="Dr. Daniel Edde" className="absolute inset-0 w-full h-full object-cover object-top" />
+                  <img src="https://doutordanieledde.com/wp-content/uploads/2025/10/Dr-Daniel.jpg" alt="Dr. Daniel Edde" className="absolute inset-0 w-full h-full object-cover object-center" />
               </div>
 
               <div>
