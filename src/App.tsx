@@ -2,6 +2,7 @@ import React from 'react';
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import About from './components/About';
+import Clinic from './components/Clinic';
 import Treatments from './components/Treatments';
 import Testimonials from './components/Testimonials';
 import Insurance from './components/Insurance';
@@ -17,6 +18,7 @@ export default function App() {
       <main>
         <Hero />
         <About />
+        <Clinic />
         <Treatments />
         <Testimonials />
         <Insurance />
