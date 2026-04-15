@@ -8,9 +8,9 @@ export default function Footer() {
             
             <div className="flex flex-col items-center justify-center mb-14">
                 <img
-                    src="https://lh3.googleusercontent.com/d/1lXEpi_A_5e3JpIpX1gAYblNEYFSQTlEw"
-                    alt="CEMEDDE"
-                    className="h-16 w-auto object-contain brightness-0 invert"
+                    src="https://lh3.googleusercontent.com/d/13-xkpH2k7DJavxirVPbuL7v8Cs5rxzE0"
+                    alt="Centro de Tratamento da Coluna"
+                    className="h-16 w-auto object-contain"
                 />
             </div>
 
