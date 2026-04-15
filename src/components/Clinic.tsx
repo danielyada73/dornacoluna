@@ -4,22 +4,22 @@ import { MapPin } from 'lucide-react';
 const clinicImages = [
   {
     label: 'Recepção',
-    src: 'https://doutordanieledde.com/protocolo-de-emagrecimento/assets/clinica-recepcao-WjFRqvL0.jpg',
+    src: 'https://lh3.googleusercontent.com/d/17OpWDeN_-Rg3ZMbSf-R7zDf4oEm70Vx3',
     featured: true,
   },
   {
     label: 'Sala de Espera',
-    src: 'https://doutordanieledde.com/protocolo-de-emagrecimento/assets/clinica-espera-we_EdnR6.jpg',
+    src: 'https://lh3.googleusercontent.com/d/1c1W4wG2OSKmD-sxgkGFjS0Jhs33N6w0T',
     featured: false,
   },
   {
     label: 'Fachada',
-    src: 'https://doutordanieledde.com/protocolo-de-emagrecimento/assets/clinica-fachada-C__IGSg4.jpg',
+    src: 'https://lh3.googleusercontent.com/d/1c2_eo5kenuG_QibGUbevezogw37yHWBK',
     featured: false,
   },
   {
     label: 'Consultório',
-    src: 'https://doutordanieledde.com/protocolo-de-emagrecimento/assets/clinica-consultorio-DO840m-P.jpg',
+    src: 'https://lh3.googleusercontent.com/d/19jNWbLqxIJhtc9qY-Y-D62I26NMBng6B',
     featured: false,
   },
 ];

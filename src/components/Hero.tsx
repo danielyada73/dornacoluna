@@ -16,8 +16,8 @@ export default function Hero() {
 
         <div className="max-w-7xl mx-auto px-6 w-full relative z-10">
             <div className="max-w-2xl">
-                <h1 className="text-4xl lg:text-5xl font-semibold tracking-tight text-[#0D1D3F] leading-tight mb-6">
-                    Tratamento para coluna e articulações<br className="hidden md:block"/>com abordagem minimamente invasiva
+                <h1 className="text-3xl lg:text-4xl font-semibold tracking-tight text-[#0D1D3F] leading-tight mb-6">
+                    Tratamento para coluna e articulações <br className="hidden md:block"/>com abordagem minimamente invasiva
                 </h1>
                 <h2 className="text-lg text-[#0D1D3F] md:text-gray-800 font-medium mb-8 leading-relaxed max-w-lg">
                     Atendimento voltado ao diagnóstico preciso e definição do melhor tratamento para cada caso, com foco em segurança, recuperação e qualidade de vida.
@@ -57,15 +57,7 @@ export default function Hero() {
                     </li>
                 </ul>
 
-                <div className="mt-12 bg-white/90 backdrop-blur-sm p-4 rounded-2xl shadow-xl inline-flex items-center gap-4 border border-white/50 md:absolute md:bottom-0 md:right-6 lg:right-12">
-                    <div className="w-12 h-12 bg-[#0D1D3F] rounded-full flex items-center justify-center text-white">
-                        <Activity className="w-6 h-6" strokeWidth={1.5} />
-                    </div>
-                    <div>
-                        <p className="font-semibold text-[#0D1D3F] text-sm">+15.000</p>
-                        <p className="text-xs text-gray-500">Pacientes Atendidos</p>
-                    </div>
-                </div>
+
 
             </div>
         </div>
