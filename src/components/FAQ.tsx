@@ -7,8 +7,8 @@ export default function FAQ() {
       <section className="py-20 bg-gray-50 border-y border-gray-100">
           <div className="max-w-7xl mx-auto px-6 grid lg:grid-cols-2 gap-16 items-start">
               
-              <div className="rounded-3xl overflow-hidden shadow-lg h-full min-h-[400px] relative bg-gray-200">
-                  <img src="https://lh3.googleusercontent.com/d/15M_AE03RzBbtMdXBapb-vAQu_M8FQP5O" alt="Médico Especialista" className="absolute inset-0 w-full h-full object-cover object-center" />
+              <div className="rounded-3xl overflow-hidden shadow-lg h-auto flex bg-white">
+                  <img src="https://lh3.googleusercontent.com/d/15M_AE03RzBbtMdXBapb-vAQu_M8FQP5O" alt="Médico Especialista" className="w-full h-auto object-cover" />
               </div>
 
               <div>
