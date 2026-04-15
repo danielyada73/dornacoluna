@@ -10,7 +10,7 @@ export default function Contact() {
                     Entre em Contato
                 </h2>
                 <p className="text-lg text-gray-600 mb-8">
-                    Agende sua consulta com o Dr. Daniel Edde e descubra o melhor tratamento. Nossa equipe entrará em contato para confirmar horários.
+                    Agende sua consulta e descubra o melhor tratamento. Nossa equipe entrará em contato para confirmar horários.
                 </p>
 
             </div>

@@ -77,15 +77,17 @@ export default function About() {
                     <div className="absolute top-0 right-0 p-8 opacity-5 text-[#0D1D3F]">
                         <Stethoscope className="w-32 h-32" strokeWidth={1.5} />
                     </div>
-                    <span className="bg-blue-50 text-[#0D1D3F] text-xs font-semibold px-3 py-1 rounded-full uppercase tracking-wider mb-6 inline-block">Sobre a Clínica</span>
+                    <span className="bg-blue-50 text-[#0D1D3F] text-xs font-semibold px-3 py-1 rounded-full uppercase tracking-wider mb-6 inline-block">SOBRE A CLÍNICA</span>
                     <h3 className="text-2xl font-semibold tracking-tight text-[#0D1D3F] mb-4">
-                        Referência no tratamento de dores
+                        Referência no tratamento de dores na coluna e articulações
                     </h3>
                     <p className="text-lg text-gray-600 mb-6 leading-relaxed">
-                        O atendimento é voltado para pacientes com dores persistentes na coluna e articulações, especialmente aqueles que não tiveram melhora com tratamentos anteriores.
+                        O atendimento é voltado para pacientes com dores persistentes na coluna e articulações, especialmente aqueles que não tiveram melhora com tratamentos anteriores.<br /><br />
+                        Cada caso é conduzido com análise criteriosa, buscando identificar a origem da dor e definir o tratamento mais adequado.
                     </p>
                     <p className="text-lg text-gray-600 mb-8 leading-relaxed">
-                        Cada caso é conduzido com análise criteriosa. Com atuação no Brasil e em Portugal, o Dr. Daniel Edde trabalha com diagnóstico preciso, decisão técnica e acompanhamento próximo. Sempre que possível, são priorizadas abordagens minimamente invasivas.
+                        Com atuação no Brasil e em Portugal, trabalhamos com diagnósticos precisos, decisões técnicas e acompanhamento próximo.<br /><br />
+                        Sempre que possível, são priorizadas abordagens minimamente invasivas, com menor impacto no corpo e recuperação mais segura e confortável.
                     </p>
                     <a href="#contato" className="inline-flex items-center gap-2 text-[#BE9143] font-semibold hover:text-[#0D1D3F] transition-colors">
                         Agendar avaliação especializada <ArrowRight className="w-4 h-4" strokeWidth={1.5} />

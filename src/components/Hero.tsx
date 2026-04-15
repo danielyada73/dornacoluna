@@ -9,10 +9,10 @@ export default function Hero() {
             {/* Left Content */}
             <div className="relative z-10">
                 <h1 className="text-4xl lg:text-5xl font-semibold tracking-tight text-[#0D1D3F] leading-tight mb-6">
-                    Tratamento especializado para dores na coluna e articulações
+                    Tratamento para coluna e articulações<br className="hidden md:block"/>com abordagem minimamente invasiva
                 </h1>
                 <h2 className="text-lg text-gray-600 mb-8 leading-relaxed max-w-lg">
-                    com avaliação criteriosa e abordagem minimamente invasiva. Atendimento voltado ao diagnóstico preciso e definição do melhor tratamento para cada caso, com foco em segurança, recuperação e qualidade de vida.
+                    Atendimento voltado ao diagnóstico preciso e definição do melhor tratamento para cada caso, com foco em segurança, recuperação e qualidade de vida.
                 </h2>
                 
                 <div className="flex flex-col sm:flex-row items-start sm:items-center gap-6 mb-12">
@@ -56,7 +56,7 @@ export default function Hero() {
                 <div className="absolute w-[120%] h-[120%] bg-[#f0f4f8] hero-blob -z-10 translate-x-10"></div>
                 
                 <div className="relative">
-                    <img src="https://drive.google.com/file/d/1tPUE7gzTObXDVgdd5-qvf0b0Ncl67Ltc/view?usp=drive_link" alt="Avaliação ortopédica" className="w-full max-w-md h-[600px] object-cover object-center block" />
+                    <img src="https://drive.google.com/uc?export=view&id=1tPUE7gzTObXDVgdd5-qvf0b0Ncl67Ltc" alt="Avaliação ortopédica" className="w-full max-w-md h-[600px] object-cover object-center block" />
                     
                     {/* Decorative overlay matching reference */}
                     <div className="absolute bottom-6 -left-6 bg-white p-4 rounded-2xl shadow-xl flex items-center gap-4">

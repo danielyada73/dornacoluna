@@ -35,7 +35,7 @@ export default function Treatments() {
                   {/* Card 2 */}
                   <div className="bg-white/5 border border-white/10 rounded-2xl overflow-hidden group hover:bg-white/10 transition duration-300">
                       <div className="h-48 bg-gray-800 overflow-hidden">
-                          <img src="https://drive.google.com/file/d/1Uk3qqcAp4yP5xWYeTYFiUmrjpN11Ou8m/view?usp=drive_link" alt="Minimamente Invasivos" className="w-full h-full object-cover group-hover:scale-105 transition duration-500 opacity-80 mix-blend-overlay" loading="lazy" decoding="async" />
+                          <img src="https://drive.google.com/uc?export=view&id=1Uk3qqcAp4yP5xWYeTYFiUmrjpN11Ou8m" alt="Minimamente Invasivos" className="w-full h-full object-cover group-hover:scale-105 transition duration-500 opacity-80 mix-blend-overlay" loading="lazy" decoding="async" />
                       </div>
                       <div className="p-6">
                           <h3 className="text-xl font-semibold mb-3">Minimamente Invasivos</h3>

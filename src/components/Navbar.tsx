@@ -12,7 +12,7 @@ export default function Navbar() {
             <div className="flex items-center gap-3">
                 <img
                     src="https://doutordanieledde.com/protocolo-de-emagrecimento/assets/logo-dourado-BAsUUEYh.png"
-                    alt="Dr. Daniel Edde"
+                    alt="CEMEDDE"
                     className="h-7 w-auto object-contain"
                 />
             </div>

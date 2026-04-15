@@ -8,7 +8,7 @@ export default function FAQ() {
           <div className="max-w-7xl mx-auto px-6 grid lg:grid-cols-2 gap-16 items-start">
               
               <div className="rounded-3xl overflow-hidden shadow-lg h-full min-h-[400px] relative bg-gray-200">
-                  <img src="https://drive.google.com/file/d/15M_AE03RzBbtMdXBapb-vAQu_M8FQP5O/view?usp=drive_link" alt="Dr. Daniel Edde" className="absolute inset-0 w-full h-full object-cover object-center" />
+                  <img src="https://drive.google.com/uc?export=view&id=15M_AE03RzBbtMdXBapb-vAQu_M8FQP5O" alt="Médico Especialista" className="absolute inset-0 w-full h-full object-cover object-center" />
               </div>
 
               <div>
@@ -80,7 +80,7 @@ export default function FAQ() {
                       Agende sua consulta hoje e diga adeus às dores na coluna
                   </h2>
                   <p className="text-lg text-gray-300 mb-8">
-                      Receba uma orientação completa sobre o melhor caminho para o seu tratamento especializado com o Dr. Daniel Edde.
+                      Receba uma orientação completa sobre o melhor caminho para o seu tratamento especializado.
                   </p>
                   <a href="#contato" className="inline-flex bg-[#BE9143] text-white px-8 py-3.5 rounded-full text-sm font-semibold hover:bg-white hover:text-[#0D1D3F] transition-colors items-center gap-2">
                       Agende Sua Consulta Agora

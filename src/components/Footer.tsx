@@ -9,10 +9,10 @@ export default function Footer() {
             <div className="flex flex-col items-center justify-center mb-16">
                 <img
                     src="https://doutordanieledde.com/protocolo-de-emagrecimento/assets/logo-dourado-BAsUUEYh.png"
-                    alt="Dr. Daniel Edde"
+                    alt="CEMEDDE"
                     className="h-14 w-auto object-contain mb-3"
                 />
-                <span className="font-semibold text-sm tracking-widest uppercase text-[#BE9143]">Dr. Daniel Edde</span>
+                <span className="font-semibold text-sm tracking-widest uppercase text-[#BE9143]">CEMEDDE</span>
             </div>
 
             <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-12 mb-16">
@@ -72,7 +72,7 @@ export default function Footer() {
             </div>
 
             <div className="border-t border-white/10 pt-8 flex flex-col md:flex-row justify-between items-center gap-4 text-xs text-gray-400">
-                <p>© 2026 Dr. Daniel Edde. Todos os direitos reservados.</p>
+                <p>© 2026 CEMEDDE. Todos os direitos reservados.</p>
                 <p>Site desenvolvido por Marketing Alpha Digital.</p>
             </div>
         </div>
