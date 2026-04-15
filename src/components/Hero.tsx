@@ -3,15 +3,23 @@ import { ArrowRight, Check, Activity } from 'lucide-react';
 
 export default function Hero() {
   return (
-    <section className="pt-32 pb-20 lg:pt-40 lg:pb-32 relative overflow-hidden">
-        <div className="max-w-7xl mx-auto px-6 grid lg:grid-cols-2 gap-12 items-center">
-            
-            {/* Left Content */}
-            <div className="relative z-10">
+    <section className="relative w-full min-h-[90vh] flex items-center pt-32 pb-20 overflow-hidden">
+        
+        {/* Background Images */}
+        <picture className="absolute inset-0 w-full h-full -z-20">
+            <source media="(max-width: 768px)" srcSet="https://lh3.googleusercontent.com/d/1Di82Sygzgtav3t_wvdyCtZ23jqBgEMH9" />
+            <img src="https://lh3.googleusercontent.com/d/1tPUE7gzTObXDVgdd5-qvf0b0Ncl67Ltc" alt="Clínica Avaliação" className="w-full h-full object-cover object-[center_top] md:object-right" />
+        </picture>
+
+        {/* Overlay for Readability */}
+        <div className="absolute inset-0 bg-white/85 md:bg-white/40 lg:bg-gradient-to-r lg:from-white/95 lg:via-white/70 lg:to-transparent -z-10"></div>
+
+        <div className="max-w-7xl mx-auto px-6 w-full relative z-10">
+            <div className="max-w-2xl">
                 <h1 className="text-4xl lg:text-5xl font-semibold tracking-tight text-[#0D1D3F] leading-tight mb-6">
                     Tratamento para coluna e articulações<br className="hidden md:block"/>com abordagem minimamente invasiva
                 </h1>
-                <h2 className="text-lg text-gray-600 mb-8 leading-relaxed max-w-lg">
+                <h2 className="text-lg text-[#0D1D3F] md:text-gray-800 font-medium mb-8 leading-relaxed max-w-lg">
                     Atendimento voltado ao diagnóstico preciso e definição do melhor tratamento para cada caso, com foco em segurança, recuperação e qualidade de vida.
                 </h2>
                 
@@ -23,54 +31,43 @@ export default function Hero() {
                 </div>
                 
                 <ul className="space-y-3">
-                    <li className="flex items-center gap-3 text-lg text-gray-700">
-                        <div className="w-6 h-6 rounded-full bg-green-100 flex items-center justify-center flex-shrink-0">
-                            <Check className="w-4 h-4 text-green-600" strokeWidth={2} />
+                    <li className="flex items-center gap-3 text-lg text-[#0D1D3F] md:text-gray-900 font-medium md:font-semibold">
+                        <div className="w-6 h-6 rounded-full bg-green-100 flex items-center justify-center flex-shrink-0 shadow-sm">
+                            <Check className="w-4 h-4 text-green-700" strokeWidth={2.5} />
                         </div>
                         Mais de 20 anos de experiência
                     </li>
-                    <li className="flex items-center gap-3 text-lg text-gray-700">
-                        <div className="w-6 h-6 rounded-full bg-green-100 flex items-center justify-center flex-shrink-0">
-                            <Check className="w-4 h-4 text-green-600" strokeWidth={2} />
+                    <li className="flex items-center gap-3 text-lg text-[#0D1D3F] md:text-gray-900 font-medium md:font-semibold">
+                        <div className="w-6 h-6 rounded-full bg-green-100 flex items-center justify-center flex-shrink-0 shadow-sm">
+                            <Check className="w-4 h-4 text-green-700" strokeWidth={2.5} />
                         </div>
                         Avaliação individualizada
                     </li>
-                    <li className="flex items-center gap-3 text-lg text-gray-700">
-                        <div className="w-6 h-6 rounded-full bg-green-100 flex items-center justify-center flex-shrink-0">
-                            <Check className="w-4 h-4 text-green-600" strokeWidth={2} />
+                    <li className="flex items-center gap-3 text-lg text-[#0D1D3F] md:text-gray-900 font-medium md:font-semibold">
+                        <div className="w-6 h-6 rounded-full bg-green-100 flex items-center justify-center flex-shrink-0 shadow-sm">
+                            <Check className="w-4 h-4 text-green-700" strokeWidth={2.5} />
                         </div>
                         Tratamentos minimamente invasivos
                     </li>
-                    <li className="flex items-center gap-3 text-lg text-gray-700">
-                        <div className="w-6 h-6 rounded-full bg-green-100 flex items-center justify-center flex-shrink-0">
-                            <Check className="w-4 h-4 text-green-600" strokeWidth={2} />
+                    <li className="flex items-center gap-3 text-lg text-[#0D1D3F] md:text-gray-900 font-medium md:font-semibold">
+                        <div className="w-6 h-6 rounded-full bg-green-100 flex items-center justify-center flex-shrink-0 shadow-sm">
+                            <Check className="w-4 h-4 text-green-700" strokeWidth={2.5} />
                         </div>
                         Suporte completo com seu plano de saúde
                     </li>
                 </ul>
-            </div>
-            
-            {/* Right Image Area */}
-            <div className="relative flex justify-center items-center lg:justify-end">
-                {/* Background decorative blob matching visual structure */}
-                <div className="absolute w-[120%] h-[120%] bg-[#f0f4f8] hero-blob -z-10 translate-x-10"></div>
-                
-                <div className="relative">
-                    <img src="https://lh3.googleusercontent.com/d/1tPUE7gzTObXDVgdd5-qvf0b0Ncl67Ltc" alt="Avaliação ortopédica" className="w-full h-auto max-w-md object-cover rounded-3xl shadow-xl block" />
-                    
-                    {/* Decorative overlay matching reference */}
-                    <div className="absolute bottom-6 -left-6 bg-white p-4 rounded-2xl shadow-xl flex items-center gap-4">
-                        <div className="w-12 h-12 bg-[#0D1D3F] rounded-full flex items-center justify-center text-white">
-                            <Activity className="w-6 h-6" strokeWidth={1.5} />
-                        </div>
-                        <div>
-                            <p className="font-semibold text-[#0D1D3F] text-sm">+15.000</p>
-                            <p className="text-xs text-gray-500">Pacientes Atendidos</p>
-                        </div>
+
+                <div className="mt-12 bg-white/90 backdrop-blur-sm p-4 rounded-2xl shadow-xl inline-flex items-center gap-4 border border-white/50 md:absolute md:bottom-0 md:right-6 lg:right-12">
+                    <div className="w-12 h-12 bg-[#0D1D3F] rounded-full flex items-center justify-center text-white">
+                        <Activity className="w-6 h-6" strokeWidth={1.5} />
+                    </div>
+                    <div>
+                        <p className="font-semibold text-[#0D1D3F] text-sm">+15.000</p>
+                        <p className="text-xs text-gray-500">Pacientes Atendidos</p>
                     </div>
                 </div>
+
             </div>
-            
         </div>
     </section>
   );

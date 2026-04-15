@@ -11,7 +11,7 @@ export default function Navbar() {
             {/* Logo */}
             <div className="flex items-center gap-3">
                 <img
-                    src="https://doutordanieledde.com/protocolo-de-emagrecimento/assets/logo-dourado-BAsUUEYh.png"
+                    src="https://lh3.googleusercontent.com/d/1lXEpi_A_5e3JpIpX1gAYblNEYFSQTlEw"
                     alt="CEMEDDE"
                     className="h-7 w-auto object-contain"
                 />

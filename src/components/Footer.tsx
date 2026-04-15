@@ -8,7 +8,7 @@ export default function Footer() {
             
             <div className="flex flex-col items-center justify-center mb-16">
                 <img
-                    src="https://doutordanieledde.com/protocolo-de-emagrecimento/assets/logo-dourado-BAsUUEYh.png"
+                    src="https://lh3.googleusercontent.com/d/1lXEpi_A_5e3JpIpX1gAYblNEYFSQTlEw"
                     alt="CEMEDDE"
                     className="h-14 w-auto object-contain mb-3"
                 />
