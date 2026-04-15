@@ -96,10 +96,10 @@ export default function FAQ() {
       {/* Gallery */}
       <section className="py-12 max-w-7xl mx-auto px-6">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
-              <img src="https://doutordanieledde.com/protocolo-de-emagrecimento/assets/clinica-recepcao-WjFRqvL0.jpg" alt="Recepção" className="w-full aspect-square object-cover rounded-2xl" />
-              <img src="https://doutordanieledde.com/protocolo-de-emagrecimento/assets/clinica-espera-we_EdnR6.jpg" alt="Sala de Espera" className="w-full aspect-square object-cover rounded-2xl" />
-              <img src="https://doutordanieledde.com/protocolo-de-emagrecimento/assets/clinica-fachada-C__IGSg4.jpg" alt="Fachada" className="w-full aspect-square object-cover rounded-2xl" />
-              <img src="https://doutordanieledde.com/protocolo-de-emagrecimento/assets/clinica-consultorio-DO840m-P.jpg" alt="Consultório" className="w-full aspect-square object-cover rounded-2xl" />
+              <img src="https://lh3.googleusercontent.com/d/17OpWDeN_-Rg3ZMbSf-R7zDf4oEm70Vx3" alt="Recepção" className="w-full aspect-square object-cover rounded-2xl" />
+              <img src="https://lh3.googleusercontent.com/d/1c1W4wG2OSKmD-sxgkGFjS0Jhs33N6w0T" alt="Sala de Espera" className="w-full aspect-square object-cover rounded-2xl" />
+              <img src="https://lh3.googleusercontent.com/d/1c2_eo5kenuG_QibGUbevezogw37yHWBK" alt="Fachada" className="w-full aspect-square object-cover rounded-2xl" />
+              <img src="https://lh3.googleusercontent.com/d/19jNWbLqxIJhtc9qY-Y-D62I26NMBng6B" alt="Consultório" className="w-full aspect-square object-cover rounded-2xl" />
           </div>
       </section>
     </>
