@@ -12,17 +12,7 @@ export default function Contact() {
                 <p className="text-lg text-gray-600 mb-8">
                     Agende sua consulta com o Dr. Daniel Edde e descubra o melhor tratamento. Nossa equipe entrará em contato para confirmar horários.
                 </p>
-                
-                <div className="space-y-6 mt-12 bg-gray-50 p-8 rounded-2xl border border-gray-100">
-                    <h3 className="font-semibold text-[#0D1D3F] mb-4">Sobre o Dr. Daniel Edde</h3>
-                    <p className="text-sm text-gray-600 leading-relaxed mb-4">
-                        Médico do esporte e ortopedista, com mais de 20 anos de experiência no tratamento de dores na coluna e articulações. Atua com foco em diagnóstico preciso e tomada de decisão baseada em critérios técnicos.
-                    </p>
-                    <div className="flex gap-4">
-                        <span className="bg-white border border-gray-200 px-3 py-1 rounded-full text-xs font-semibold text-[#0D1D3F]">+5.000 procedimentos</span>
-                        <span className="bg-white border border-gray-200 px-3 py-1 rounded-full text-xs font-semibold text-[#0D1D3F]">Atuação BR/PT</span>
-                    </div>
-                </div>
+
             </div>
 
             <form className="space-y-4" onSubmit={(e) => e.preventDefault()}>
