@@ -6,13 +6,12 @@ export default function Footer() {
     <footer className="bg-[#0D1D3F] text-white pt-20 pb-8">
         <div className="max-w-7xl mx-auto px-6">
             
-            <div className="flex flex-col items-center justify-center mb-16">
+            <div className="flex flex-col items-center justify-center mb-14">
                 <img
                     src="https://lh3.googleusercontent.com/d/1lXEpi_A_5e3JpIpX1gAYblNEYFSQTlEw"
                     alt="CEMEDDE"
-                    className="h-14 w-auto object-contain mb-3"
+                    className="h-16 w-auto object-contain brightness-0 invert"
                 />
-                <span className="font-semibold text-sm tracking-widest uppercase text-[#BE9143]">CEMEDDE</span>
             </div>
 
             <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-12 mb-16">

@@ -6,13 +6,13 @@ export default function Hero() {
     <section className="relative w-full min-h-[90vh] flex items-center pt-32 pb-20 overflow-hidden">
         
         {/* Background Images */}
-        <picture className="absolute inset-0 w-full h-full -z-20">
+        <picture className="absolute inset-0 w-full h-full flex">
             <source media="(max-width: 768px)" srcSet="https://lh3.googleusercontent.com/d/1Di82Sygzgtav3t_wvdyCtZ23jqBgEMH9" />
             <img src="https://lh3.googleusercontent.com/d/1tPUE7gzTObXDVgdd5-qvf0b0Ncl67Ltc" alt="Clínica Avaliação" className="w-full h-full object-cover object-[center_top] md:object-right" />
         </picture>
 
         {/* Overlay for Readability */}
-        <div className="absolute inset-0 bg-white/85 md:bg-white/40 lg:bg-gradient-to-r lg:from-white/95 lg:via-white/70 lg:to-transparent -z-10"></div>
+        <div className="absolute inset-0 bg-white/85 lg:bg-transparent lg:bg-gradient-to-r lg:from-white/95 lg:via-white/50 lg:to-transparent"></div>
 
         <div className="max-w-7xl mx-auto px-6 w-full relative z-10">
             <div className="max-w-2xl">

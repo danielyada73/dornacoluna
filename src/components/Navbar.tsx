@@ -13,7 +13,7 @@ export default function Navbar() {
                 <img
                     src="https://lh3.googleusercontent.com/d/1lXEpi_A_5e3JpIpX1gAYblNEYFSQTlEw"
                     alt="CEMEDDE"
-                    className="h-7 w-auto object-contain"
+                    className="h-12 w-auto object-contain brightness-0 invert"
                 />
             </div>
 
