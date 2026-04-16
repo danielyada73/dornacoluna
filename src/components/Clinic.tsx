@@ -45,7 +45,7 @@ const conditions = [
   {
     title: 'Artrose Geral',
     description: 'Desgaste cartilaginoso em grandes articulações como joelho e quadril.',
-    image: 'https://nucleodeortopedia.com.br/wp-content/uploads/2019/12/Artrose-ou-osteoartrite.jpg',
+    image: 'https://www.drasandraalveshomeopata.com.br/images/stories/Especialidades/artrose.jpg',
   },
   {
     title: 'Dor Crônica Cervical',
