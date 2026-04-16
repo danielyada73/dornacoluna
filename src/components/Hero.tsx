@@ -17,7 +17,7 @@ export default function Hero() {
         <div className="max-w-7xl mx-auto px-6 w-full relative z-10">
             <div className="max-w-2xl">
                 <h1 className="text-3xl lg:text-4xl font-semibold tracking-tight text-[#0D1D3F] leading-tight mb-6">
-                    Tratamento para coluna e articulações <br className="hidden md:block"/>com abordagem minimamente invasiva
+                    Tratamento para coluna e articulações com abordagem minimamente invasiva
                 </h1>
                 <h2 className="text-lg text-[#0D1D3F] md:text-gray-800 font-medium mb-8 leading-relaxed max-w-lg">
                     Atendimento voltado ao diagnóstico preciso e definição do melhor tratamento para cada caso, com foco em segurança, recuperação e qualidade de vida.
