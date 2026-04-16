@@ -22,7 +22,7 @@ export default function Treatments() {
                   {/* Card 1 */}
                   <div className="bg-white/5 border border-white/10 rounded-2xl overflow-hidden group hover:bg-white/10 transition duration-300">
                       <div className="h-48 bg-gray-800 overflow-hidden">
-                          <img src="https://cetrus.com.br/wp-content/uploads/2025/01/cetrus-curso-intensivo-infiltracao-da-coluna-guiada-por-ultrassom.webp" alt="Infiltrações guiadas" className="w-full h-full object-cover group-hover:scale-105 transition duration-500 opacity-80 mix-blend-overlay" loading="lazy" decoding="async" />
+                          <img src="https://cetrus.com.br/wp-content/uploads/2025/01/cetrus-curso-intensivo-infiltracao-da-coluna-guiada-por-ultrassom.webp" alt="Infiltrações guiadas" className="w-full h-full object-cover group-hover:scale-105 transition duration-500 opacity-60" loading="lazy" decoding="async" />
                       </div>
                       <div className="p-6">
                           <h3 className="text-xl font-semibold mb-3">Infiltrações Guiadas</h3>
@@ -35,7 +35,7 @@ export default function Treatments() {
                   {/* Card 2 */}
                   <div className="bg-white/5 border border-white/10 rounded-2xl overflow-hidden group hover:bg-white/10 transition duration-300">
                       <div className="h-48 bg-gray-800 overflow-hidden">
-                          <img src="https://lh3.googleusercontent.com/d/1Uk3qqcAp4yP5xWYeTYFiUmrjpN11Ou8m" alt="Minimamente Invasivos" className="w-full h-full object-cover group-hover:scale-105 transition duration-500 opacity-80 mix-blend-overlay" loading="lazy" decoding="async" />
+                          <img src="https://lh3.googleusercontent.com/d/1Uk3qqcAp4yP5xWYeTYFiUmrjpN11Ou8m" alt="Minimamente Invasivos" className="w-full h-full object-cover group-hover:scale-105 transition duration-500 opacity-60" loading="lazy" decoding="async" />
                       </div>
                       <div className="p-6">
                           <h3 className="text-xl font-semibold mb-3">Minimamente Invasivos</h3>
@@ -48,7 +48,7 @@ export default function Treatments() {
                   {/* Card 3 */}
                   <div className="bg-white/5 border border-white/10 rounded-2xl overflow-hidden group hover:bg-white/10 transition duration-300">
                       <div className="h-48 bg-gray-800 overflow-hidden">
-                          <img src="https://drvagnerdepaiva.com.br/wp-content/uploads/2025/08/Dores-articulares-que-vao-e-voltam-Nao-ignore-os-sinais-do-seu-corpo.jpg" alt="Dores Articulares" className="w-full h-full object-cover group-hover:scale-105 transition duration-500 opacity-80 mix-blend-overlay" loading="lazy" decoding="async" />
+                          <img src="https://drvagnerdepaiva.com.br/wp-content/uploads/2025/08/Dores-articulares-que-vao-e-voltam-Nao-ignore-os-sinais-do-seu-corpo.jpg" alt="Dores Articulares" className="w-full h-full object-cover group-hover:scale-105 transition duration-500 opacity-60" loading="lazy" decoding="async" />
                       </div>
                       <div className="p-6">
                           <h3 className="text-xl font-semibold mb-3">Dores Articulares</h3>
@@ -61,7 +61,7 @@ export default function Treatments() {
                   {/* Card 4 */}
                   <div className="bg-white/5 border border-white/10 rounded-2xl overflow-hidden group hover:bg-white/10 transition duration-300">
                       <div className="h-48 bg-gray-800 overflow-hidden">
-                          <img src="https://hcitajuba.org.br/wp-content/uploads/2025/07/Raio-X-da-Coluna_-Entenda-os-Diferentes-Tipos-e-Seus-Propositos-1024x536.png" alt="Avaliação da Coluna" className="w-full h-full object-cover group-hover:scale-105 transition duration-500 opacity-80 mix-blend-overlay" loading="lazy" decoding="async" />
+                          <img src="https://hcitajuba.org.br/wp-content/uploads/2025/07/Raio-X-da-Coluna_-Entenda-os-Diferentes-Tipos-e-Seus-Propositos-1024x536.png" alt="Avaliação da Coluna" className="w-full h-full object-cover group-hover:scale-105 transition duration-500 opacity-60" loading="lazy" decoding="async" />
                       </div>
                       <div className="p-6">
                           <h3 className="text-xl font-semibold mb-3">Avaliação da Coluna</h3>
