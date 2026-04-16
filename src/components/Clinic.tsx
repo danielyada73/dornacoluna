@@ -9,8 +9,8 @@ const conditions = [
   },
   {
     title: 'Artrose na Coluna',
-    description: 'Desgaste das cartilagens das articulações, causando dor e limitação de movimento.',
-    image: 'https://drvagnerdepaiva.com.br/wp-content/uploads/2025/08/Dores-articulares-que-vao-e-voltam-Nao-ignore-os-sinais-do-seu-corpo.jpg',
+    description: 'Bicos de papagaio e desgaste das facetas articulares, causando dor e rigidez.',
+    image: 'https://doutorvagnerdepaiva.com.br/wp-content/uploads/2022/10/artrose-na-coluna.jpg',
   },
   {
     title: 'Doenças do Tendão',
@@ -19,53 +19,58 @@ const conditions = [
   },
   {
     title: 'Hérnia Cervical',
-    description: 'Dor na região do pescoço com irradiação para os braços e mãos.',
-    image: 'https://lh3.googleusercontent.com/d/1Uk3qqcAp4yP5xWYeTYFiUmrjpN11Ou8m',
+    description: 'Hérnia na região do pescoço com irradiação para os braços e mãos.',
+    image: 'https://www.clinicadacoluna.com.br/wp-content/uploads/2020/09/dor-cervical.jpg',
   },
   {
     title: 'Hérnia Lombar',
-    description: 'Dor na região lombar que pode se irradiar para as pernas e pés.',
-    image: 'https://lh3.googleusercontent.com/d/1Uk3qqcAp4yP5xWYeTYFiUmrjpN11Ou8m',
+    description: 'Hérnia na região baixa das costas com irradiação para as pernas.',
+    image: 'https://www.clinicadacoluna.com.br/wp-content/uploads/2020/09/dor-lombar.jpg',
   },
   {
     title: 'Escoliose',
-    description: 'Curvatura lateral da coluna que pode causar desequilíbrio e dor.',
-    image: 'https://hcitajuba.org.br/wp-content/uploads/2025/07/Raio-X-da-Coluna_-Entenda-os-Diferentes-Tipos-e-Seus-Propositos-1024x536.png',
+    description: 'Curvatura lateral anormal da coluna vertebral, visível em exames de imagem.',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/e/e0/Scoliosis_x-ray.jpg',
   },
   {
     title: 'Estenose de Canal',
-    description: 'Estreitamento do canal vertebral comprimindo os nervos.',
-    image: 'https://lh3.googleusercontent.com/d/1Uk3qqcAp4yP5xWYeTYFiUmrjpN11Ou8m',
+    description: 'Estreitamento do canal onde passam os nervos, causando dor ao caminhar.',
+    image: 'https://my.clevelandclinic.org/-/scassets/images/org/health/articles/17499-spinal-stenosis-02',
   },
   {
     title: 'Síndrome Pós-Laminectomia',
-    description: 'Dor persistente após cirurgias de coluna ou falha de artrodese.',
+    description: 'Dor que persiste após cirurgias de coluna ou falha de artrodese anterior.',
+    image: 'https://www.painsolution.com.br/wp-content/uploads/2021/05/sindrome-pos-laminectomia.jpg',
+  },
+  {
+    title: 'Artrose Geral',
+    description: 'Desgaste cartilaginoso em grandes articulações como joelho e quadril.',
     image: 'https://drvagnerdepaiva.com.br/wp-content/uploads/2025/08/Dores-articulares-que-vao-e-voltam-Nao-ignore-os-sinais-do-seu-corpo.jpg',
   },
   {
+    title: 'Dor Crônica Cervical',
+    description: 'Tratamento especializado para dores persistentes no pescoço.',
+    image: 'https://cdn.pixabay.com/photo/2018/02/16/09/20/neck-pain-3156824_1280.jpg',
+  },
+  {
+    title: 'Dor Crônica Lombar',
+    description: 'Tratamento focado em dores persistentes na região lombar crônica.',
+    image: 'https://cdn.pixabay.com/photo/2018/05/28/19/03/back-3437021_1280.jpg',
+  },
+  {
     title: 'Cefaleia Cervicogênica',
-    description: 'Dores de cabeça que têm origem em problemas na coluna cervical.',
-    image: 'https://hcitajuba.org.br/wp-content/uploads/2025/07/Raio-X-da-Coluna_-Entenda-os-Diferentes-Tipos-e-Seus-Propositos-1024x536.png',
+    description: 'Dores de cabeça originadas por problemas nas vértebras cervicais.',
+    image: 'https://www.institutodavertigem.com.br/wp-content/uploads/2021/03/cefaleia-cervicogenica.jpg',
   },
   {
     title: 'Fratura na Coluna',
-    description: 'Lesões ósseas que exigem diagnóstico preciso e tratamento especializado.',
+    description: 'Lesões ósseas vertebrais que exigem estabilização e cuidado técnico.',
     image: 'https://hcitajuba.org.br/wp-content/uploads/2025/07/Raio-X-da-Coluna_-Entenda-os-Diferentes-Tipos-e-Seus-Propositos-1024x536.png',
   },
   {
     title: 'Espondilolistese',
-    description: 'Escorregamento de uma vértebra sobre a outra, causando instabilidade.',
-    image: 'https://lh3.googleusercontent.com/d/1Uk3qqcAp4yP5xWYeTYFiUmrjpN11Ou8m',
-  },
-  {
-    title: 'Dor Crônica Cervical',
-    description: 'Tratamento de dores persistentes na região do pescoço.',
-    image: 'https://hcitajuba.org.br/wp-content/uploads/2025/07/Raio-X-da-Coluna_-Entenda-os-Diferentes-Tipos-e-Seus-Propositos-1024x536.png',
-  },
-  {
-    title: 'Dor Crônica Lombar',
-    description: 'Tratamento de dores persistentes na região lombar e costas.',
-    image: 'https://lh3.googleusercontent.com/d/1Uk3qqcAp4yP5xWYeTYFiUmrjpN11Ou8m',
+    description: 'Escorregamento de uma vértebra sobre a outra, causando dor e instabilidade.',
+    image: 'https://www.clinicadacoluna.com.br/wp-content/uploads/2020/09/espondilolistese.jpg',
   }
 ];
 
@@ -96,6 +101,9 @@ export default function Clinic() {
                   src={item.image}
                   alt={item.title}
                   className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+                  onError={(e) => {
+                    (e.target as HTMLImageElement).src = 'https://images.unsplash.com/photo-1576091160550-217359f4ecf8?auto=format&fit=crop&q=80&w=800';
+                  }}
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-[#0D1D3F]/40 to-transparent" />
               </div>
