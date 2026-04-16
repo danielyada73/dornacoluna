@@ -5,67 +5,67 @@ const conditions = [
   {
     title: 'Hérnia de Disco',
     description: 'Compressão dos nervos da coluna que pode causar dor intensa e dormência.',
-    image: '/assets/doencas/hernia.png',
+    image: 'https://lh3.googleusercontent.com/d/1Uk3qqcAp4yP5xWYeTYFiUmrjpN11Ou8m',
   },
   {
     title: 'Artrose na Coluna',
     description: 'Desgaste das cartilagens das articulações, causando dor e limitação de movimento.',
-    image: '/assets/doencas/artrose.png',
+    image: 'https://drvagnerdepaiva.com.br/wp-content/uploads/2025/08/Dores-articulares-que-vao-e-voltam-Nao-ignore-os-sinais-do-seu-corpo.jpg',
   },
   {
     title: 'Doenças do Tendão',
     description: 'Tendinites e outras inflamações que afetam a mobilidade e causam desconforto.',
-    image: '/assets/doencas/tendonitis.png',
+    image: 'https://cetrus.com.br/wp-content/uploads/2025/01/cetrus-curso-intensivo-infiltracao-da-coluna-guiada-por-ultrassom.webp',
   },
   {
     title: 'Hérnia Cervical',
     description: 'Dor na região do pescoço com irradiação para os braços e mãos.',
-    image: '/assets/doencas/hernia.png',
+    image: 'https://lh3.googleusercontent.com/d/1Uk3qqcAp4yP5xWYeTYFiUmrjpN11Ou8m',
   },
   {
     title: 'Hérnia Lombar',
     description: 'Dor na região lombar que pode se irradiar para as pernas e pés.',
-    image: '/assets/doencas/hernia.png',
+    image: 'https://lh3.googleusercontent.com/d/1Uk3qqcAp4yP5xWYeTYFiUmrjpN11Ou8m',
   },
   {
     title: 'Escoliose',
     description: 'Curvatura lateral da coluna que pode causar desequilíbrio e dor.',
-    image: '/assets/doencas/escoliose.png',
+    image: 'https://hcitajuba.org.br/wp-content/uploads/2025/07/Raio-X-da-Coluna_-Entenda-os-Diferentes-Tipos-e-Seus-Propositos-1024x536.png',
   },
   {
     title: 'Estenose de Canal',
     description: 'Estreitamento do canal vertebral comprimindo os nervos.',
-    image: '/assets/doencas/estenose.png',
+    image: 'https://lh3.googleusercontent.com/d/1Uk3qqcAp4yP5xWYeTYFiUmrjpN11Ou8m',
   },
   {
     title: 'Síndrome Pós-Laminectomia',
     description: 'Dor persistente após cirurgias de coluna ou falha de artrodese.',
-    image: '/assets/doencas/artrose.png',
+    image: 'https://drvagnerdepaiva.com.br/wp-content/uploads/2025/08/Dores-articulares-que-vao-e-voltam-Nao-ignore-os-sinais-do-seu-corpo.jpg',
   },
   {
     title: 'Cefaleia Cervicogênica',
     description: 'Dores de cabeça que têm origem em problemas na coluna cervical.',
-    image: '/assets/doencas/headache.png',
+    image: 'https://hcitajuba.org.br/wp-content/uploads/2025/07/Raio-X-da-Coluna_-Entenda-os-Diferentes-Tipos-e-Seus-Propositos-1024x536.png',
   },
   {
     title: 'Fratura na Coluna',
     description: 'Lesões ósseas que exigem diagnóstico preciso e tratamento especializado.',
-    image: '/assets/doencas/fracture.png',
+    image: 'https://hcitajuba.org.br/wp-content/uploads/2025/07/Raio-X-da-Coluna_-Entenda-os-Diferentes-Tipos-e-Seus-Propositos-1024x536.png',
   },
   {
     title: 'Espondilolistese',
     description: 'Escorregamento de uma vértebra sobre a outra, causando instabilidade.',
-    image: '/assets/doencas/spondylolisthesis.png',
+    image: 'https://lh3.googleusercontent.com/d/1Uk3qqcAp4yP5xWYeTYFiUmrjpN11Ou8m',
   },
   {
     title: 'Dor Crônica Cervical',
     description: 'Tratamento de dores persistentes na região do pescoço.',
-    image: '/assets/doencas/headache.png',
+    image: 'https://hcitajuba.org.br/wp-content/uploads/2025/07/Raio-X-da-Coluna_-Entenda-os-Diferentes-Tipos-e-Seus-Propositos-1024x536.png',
   },
   {
     title: 'Dor Crônica Lombar',
     description: 'Tratamento de dores persistentes na região lombar e costas.',
-    image: '/assets/doencas/hernia.png',
+    image: 'https://lh3.googleusercontent.com/d/1Uk3qqcAp4yP5xWYeTYFiUmrjpN11Ou8m',
   }
 ];
 
