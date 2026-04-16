@@ -8,6 +8,7 @@ import Insurance from './components/Insurance';
 import FAQ from './components/FAQ';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
+import Clinic from './components/Clinic';
 import WhatsAppButton from './components/WhatsAppButton';
 
 export default function App() {
@@ -18,6 +19,7 @@ export default function App() {
         <Hero />
         <About />
         <Treatments />
+        <Clinic />
         <Testimonials />
         <Insurance />
         <FAQ />

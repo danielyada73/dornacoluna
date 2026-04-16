@@ -14,7 +14,7 @@ export default function Footer() {
                 />
             </div>
 
-            <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-12 mb-16">
+            <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-12 mb-16">
                 
                 {/* Contato */}
                 <div>
@@ -33,7 +33,7 @@ export default function Footer() {
                     </div>
                 </div>
 
-                {/* Endereço SP */}
+                {/* Endereço Brasil */}
                 <div className="lg:col-span-2">
                     <h4 className="font-semibold text-lg mb-6 flex items-center gap-2">
                         <MapPin className="w-5 h-5 text-[#BE9143]" strokeWidth={1.5} />
@@ -52,19 +52,6 @@ export default function Footer() {
                             <p>Flamengo, Rio de Janeiro – RJ</p>
                             <p>22210-030</p>
                         </div>
-                    </div>
-                </div>
-
-                {/* Endereço Lisboa */}
-                <div>
-                    <h4 className="font-semibold text-lg mb-6 flex items-center gap-2">
-                        <Globe className="w-5 h-5 text-[#BE9143]" strokeWidth={1.5} />
-                        Endereço Lisboa
-                    </h4>
-                    <div className="space-y-4 text-gray-300 text-sm">
-                        <p>R. Gen. Firmino Miguel 5B,</p>
-                        <p>CEP: 1600-100</p>
-                        <p>Portugal</p>
                     </div>
                 </div>
 

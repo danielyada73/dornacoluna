@@ -86,7 +86,7 @@ export default function About() {
                         Cada caso é conduzido com análise criteriosa, buscando identificar a origem da dor e definir o tratamento mais adequado.
                     </p>
                     <p className="text-lg text-gray-600 mb-8 leading-relaxed">
-                        Com atuação no Brasil e em Portugal, trabalhamos com diagnósticos precisos, decisões técnicas e acompanhamento próximo.<br /><br />
+                        Trabalhamos com diagnósticos precisos, decisões técnicas e acompanhamento próximo.<br /><br />
                         Sempre que possível, são priorizadas abordagens minimamente invasivas, com menor impacto no corpo e recuperação mais segura e confortável.
                     </p>
                     <a href="#contato" className="inline-flex items-center gap-2 text-[#BE9143] font-semibold hover:text-[#0D1D3F] transition-colors">
