@@ -5,27 +5,27 @@ const conditions = [
   {
     title: 'Hérnia de Disco',
     description: 'Compressão dos nervos da coluna que pode causar dor intensa e dormência.',
-    image: 'https://lh3.googleusercontent.com/d/1Uk3qqcAp4yP5xWYeTYFiUmrjpN11Ou8m',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/b/b3/Herniated_disc.png',
   },
   {
     title: 'Artrose na Coluna',
     description: 'Bicos de papagaio e desgaste das facetas articulares, causando dor e rigidez.',
-    image: 'https://doutorvagnerdepaiva.com.br/wp-content/uploads/2022/10/artrose-na-coluna.jpg',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/d/da/Osteoarthritis_of_the_knee.png',
   },
   {
     title: 'Doenças do Tendão',
     description: 'Tendinites e outras inflamações que afetam a mobilidade e causam desconforto.',
-    image: 'https://cetrus.com.br/wp-content/uploads/2025/01/cetrus-curso-intensivo-infiltracao-da-coluna-guiada-por-ultrassom.webp',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/b/b5/Hand_tendons.png',
   },
   {
     title: 'Hérnia Cervical',
     description: 'Hérnia na região do pescoço com irradiação para os braços e mãos.',
-    image: 'https://www.clinicadacoluna.com.br/wp-content/uploads/2020/09/dor-cervical.jpg',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/c/c5/Cervical_vertebrae_lateral.png',
   },
   {
     title: 'Hérnia Lombar',
     description: 'Hérnia na região baixa das costas com irradiação para as pernas.',
-    image: 'https://www.clinicadacoluna.com.br/wp-content/uploads/2020/09/dor-lombar.jpg',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/b/ba/Lumbar_vertebrae_lateral.png',
   },
   {
     title: 'Escoliose',
@@ -35,42 +35,42 @@ const conditions = [
   {
     title: 'Estenose de Canal',
     description: 'Estreitamento do canal onde passam os nervos, causando dor ao caminhar.',
-    image: 'https://my.clevelandclinic.org/-/scassets/images/org/health/articles/17499-spinal-stenosis-02',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/0/05/Spinal_stenosis.png',
   },
   {
     title: 'Síndrome Pós-Laminectomia',
     description: 'Dor que persiste após cirurgias de coluna ou falha de artrodese anterior.',
-    image: 'https://www.painsolution.com.br/wp-content/uploads/2021/05/sindrome-pos-laminectomia.jpg',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/c/c3/Standard_Laminectomy.png',
   },
   {
     title: 'Artrose Geral',
     description: 'Desgaste cartilaginoso em grandes articulações como joelho e quadril.',
-    image: 'https://drvagnerdepaiva.com.br/wp-content/uploads/2025/08/Dores-articulares-que-vao-e-voltam-Nao-ignore-os-sinais-do-seu-corpo.jpg',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/d/da/Osteoarthritis_of_the_knee.png',
   },
   {
     title: 'Dor Crônica Cervical',
     description: 'Tratamento especializado para dores persistentes no pescoço.',
-    image: 'https://cdn.pixabay.com/photo/2018/02/16/09/20/neck-pain-3156824_1280.jpg',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/1/1d/Neck_pain.jpg',
   },
   {
     title: 'Dor Crônica Lombar',
     description: 'Tratamento focado em dores persistentes na região lombar crônica.',
-    image: 'https://cdn.pixabay.com/photo/2018/05/28/19/03/back-3437021_1280.jpg',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/7/7b/Lower_back_pain.jpg',
   },
   {
     title: 'Cefaleia Cervicogênica',
     description: 'Dores de cabeça originadas por problemas nas vértebras cervicais.',
-    image: 'https://www.institutodavertigem.com.br/wp-content/uploads/2021/03/cefaleia-cervicogenica.jpg',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/5/5e/Headache.jpg',
   },
   {
     title: 'Fratura na Coluna',
     description: 'Lesões ósseas vertebrais que exigem estabilização e cuidado técnico.',
-    image: 'https://hcitajuba.org.br/wp-content/uploads/2025/07/Raio-X-da-Coluna_-Entenda-os-Diferentes-Tipos-e-Seus-Propositos-1024x536.png',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/2/23/Compression_fracture_of_the_vertebra.png',
   },
   {
     title: 'Espondilolistese',
     description: 'Escorregamento de uma vértebra sobre a outra, causando dor e instabilidade.',
-    image: 'https://www.clinicadacoluna.com.br/wp-content/uploads/2020/09/espondilolistese.jpg',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/3/3d/Spondylolisthesis_grade_1.jpg',
   }
 ];
 
